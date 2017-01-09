@@ -1,0 +1,28 @@
+" vim: filetype=vim
+
+set nocompatible
+filetype off                " required!
+
+set rtp+=~/.vim/bundle/Vundle.vim/
+
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+
+" ----------------------
+"  Themes
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'sheerun/vim-polyglot'
+
+" ---------------------
+"  Navigation
+Plugin 'scrooloose/nerdtree'
+
+" ---------------------
+"  Comment
+Plugin 'scrooloose/nerdcommenter' 
+
+call vundle#end()            " required
+filetype plugin indent on    " required
