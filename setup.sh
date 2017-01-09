@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Credits: fgreh,
+# Credits: fgrehm
 
 echo "Creating symlinks..."
 
