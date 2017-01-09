@@ -13,6 +13,7 @@ set number              " show line numbers
 set cursorline          " highlight current line
 set modelines=1
 syntax on
+filetype plugin indent on
 
 " ---------------------
 "  Theme
@@ -46,5 +47,9 @@ set smartcase           " unless they contain at least one capital letter
 
 " --------------------
 "  Key Mapping
-map <F7> :tabn<CR>
-map <F8> :tabp<CR>
+map <F6> :tabn<CR>
+map <F7> :tabp<CR>
+map <F8> :bnext<CR>
+map <F9> :bprevious<CR>
+
+map <C-n> :NERDTreeToggle<CR>  " shortcut for NERDTreeToggle
