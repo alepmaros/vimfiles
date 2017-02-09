@@ -19,10 +19,18 @@ Plugin 'sheerun/vim-polyglot'
 " ---------------------
 "  Navigation
 Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
 
 " ---------------------
 "  Comment
 Plugin 'scrooloose/nerdcommenter' 
+
+" ---------------------
+" Git
+Plugin 'tpope/vim-fugitive'
+
+" Syntax checking
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
