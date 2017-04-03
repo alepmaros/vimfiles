@@ -12,8 +12,10 @@ set ruler               " show cursor position
 set number              " show line numbers
 set cursorline          " highlight current line
 set modelines=1
+set mouse=a
 syntax on
 filetype plugin indent on
+set cc=80
 
 " ---------------------
 "  Theme
@@ -62,8 +64,8 @@ let g:syntastic_check_on_wq = 0
 
 " --------------------
 "  Key Mapping
-map <F6> :tabn<CR>
-map <F7> :tabp<CR>
+map <F6> :tabp<CR>
+map <F7> :tabn<CR>
 map <F8> :bnext<CR>
 map <F9> :bprevious<CR>
 
