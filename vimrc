@@ -12,7 +12,7 @@ set ruler               " show cursor position
 set number              " show line numbers
 set cursorline          " highlight current line
 set modelines=1
-set mouse=a
+set mouse=a             " allow usage of mouse
 syntax on
 filetype plugin indent on
 set cc=80
@@ -61,7 +61,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-
 " --------------------
 "  Key Mapping
 map <F6> :tabp<CR>
@@ -69,4 +68,8 @@ map <F7> :tabn<CR>
 map <F8> :bnext<CR>
 map <F9> :bprevious<CR>
 
+" --------------------
+"  Nerd Tree conf
 map <C-n> :NERDTreeToggle<CR>  " shortcut for NERDTreeToggle
+
+let g:airline#extensions#tabline#enabled = 1 " Show Buffers

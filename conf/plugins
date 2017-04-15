@@ -19,7 +19,9 @@ Plugin 'sheerun/vim-polyglot'
 " ---------------------
 "  Navigation
 Plugin 'scrooloose/nerdtree'
+"Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'bling/vim-airline'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " ---------------------
 "  Comment
