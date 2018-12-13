@@ -32,7 +32,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-fugitive'
 
 " Syntax checking
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
